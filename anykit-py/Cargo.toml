@@ -1,0 +1,12 @@
+[package]
+name = "anykit-py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "anykit_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
+anykit = { path = "../anykit" }
