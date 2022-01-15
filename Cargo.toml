@@ -2,5 +2,7 @@
 members = [
 	"anykit",
 	"anykit-py",
-	"anykit-js"
+	"anykit-js",
+	"anykit-go",
+	"anykit-dotnet"
 ]
